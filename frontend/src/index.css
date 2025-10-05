@@ -11,8 +11,9 @@
     /* Modern todo app color palette */
     --background: 240 10% 98%;
     --background-secondary: 245 15% 96%;
-    --foreground: 215 28% 27%; /* slate 700 */
-
+    /* --foreground: 215 28% 27%; slate 700 */
+    --foreground: 218 54% 30%; /* blue-700/800 */
+    
     --card: 0 0% 100%;
     --card-foreground: 215 28% 27%;
     --card-shadow: 218 36% 18%; /* slate 800 */
@@ -71,7 +72,8 @@
       0 2px 4px -2px hsl(218 36% 18% / 0.1);
     --shadow-lg: 0 10px 15px -3px hsl(218 36% 18% / 0.1),
       0 4px 6px -4px hsl(218 36% 18% / 0.1);
-    --shadow-glow: 0 0 20px hsl(258 89% 65% / 0.3);
+    --shadow-glow: 0 0 20px hsla(138, 73%, 42%, 0.3);
+
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
