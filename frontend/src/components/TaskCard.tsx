@@ -6,4 +6,4 @@ const TaskCard = () => {
   )
 }
 
-export default TaskCard
+export default TaskCard;

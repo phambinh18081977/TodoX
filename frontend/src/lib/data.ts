@@ -4,3 +4,4 @@ export const FilterType:Record<Status,string> = {
     active: "Đang làm",
     completed: "hoàn thành"
 };
+export type FilterTypes = 'all' | 'active' | 'completed';
